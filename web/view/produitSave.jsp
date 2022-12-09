@@ -13,7 +13,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Hello Voici le commande que vous avez fait</h1>
             Nom produit:<s:property value="nomProduit"/><br/>  
             Quantite produit:<s:property value="quantiteProduit"/><br/>  
             Prix produit:<s:property value="prixUnitaire"/><br/>  

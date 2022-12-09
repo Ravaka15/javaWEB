@@ -6,9 +6,14 @@
 
 <struts>
     <package name="default" extends="struts-default">
-        <action name="produit" class="entity.Produit">
-            <result name="success">produitSave.jsp</result>
+        <action name="helloWorld" class="example.HelloWorld">
+            <result name="success">helloWorld.jsp</result>
+        </action>
+        <action name="operation" class="entity.Operation">
+            <result name="success">HelloWorld.jsp</result>
+        </action>
+        <action name="equationsecond" class="entity.SecondD">
+            <result name="success">HelloWorld.jsp</result>
         </action>
     </package>
 </struts>
-

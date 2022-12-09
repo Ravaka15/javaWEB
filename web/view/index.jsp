@@ -12,12 +12,12 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
-    <body>     
-        <s:form action="produit">  
-        <s:textfield name="nomProduit" label="Nom produit"></s:textfield>  
-        <s:textfield name="quantiteProduit" label="Quantite produit"></s:textfield>  
-        <s:textfield name="prixUnitaire" label="Prix de produit"></s:textfield>  
-        <s:submit value="Enregistrer"></s:submit>  
+    <body>
+        <s:form action="produit">
+            <s:textfield name="nomProduit" label="Nom produit"></s:textfield>  
+            <s:textfield name="quantiteProduit" label="Quantite produit"></s:textfield>  
+            <s:textfield name="prixUnitaire" label="Prix de produit"></s:textfield>  
+            <s:submit value="Enregistrer"></s:submit>  
         </s:form>
     </body>
 </html>
