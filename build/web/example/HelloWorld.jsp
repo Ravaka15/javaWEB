@@ -30,6 +30,7 @@
             <s:submit value="Voir equation"></s:submit>
         </s:form><br/>
             Delta = <s:property value="delta"/>
+            
      
     </body>
 </html>
